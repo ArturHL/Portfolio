@@ -10,10 +10,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid mediumpurple;
     padding: 0 15px 0 15px;
     height: 60px;
     width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
 }
 #navList{
     display: flex;
@@ -23,19 +25,61 @@ nav{
 .pointsList{
     padding-left: 30px;
 }
-.intro{
-    padding: 0 120px 0 120px;
-}
 section{
     text-align: center;
 }
 li{
     list-style: none;
 }
+.About{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    height: 530px;
+    align-items: center;
+}
+.intro{
+    position: relative;
+    bottom: 30px;
+}
+.presentation-card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.presentation-card > div{
+    width: 23vw;
+    height: 55vh;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.presentation-img{
+    width: 50%;
+}
+.presentation-img img{
+    width: 35vw;
+    height: 100%;
+}
+#link-works{
+    text-decoration: none;
+    color: lightskyblue;
+}
+#button-cv{
+    border: none;
+    border-radius: 20px;
+    width: 7vw;
+    height: 30px;
+    background-color: lightskyblue;
+    color: white;
+    position: relative;
+    bottom: 7px;
+}
 .img{
      width: 100px;
      height: 100px;
      margin: 30px;
+     border-radius: 10px;
 }
 .list{
     display: flex;
@@ -43,17 +87,21 @@ li{
     width: 100%;
 }
 section{
-    padding-bottom: 50px;
+    margin-top: 80px;
     /* border-bottom: 1px solid mediumpurple; */
 }
 #Skills{
     justify-content: center;
     display: flex;
 }
+.Skillset{
+    background-color: aliceblue;
+    height: 50vh;
+    padding-top: 40px;
+}
 .Studies{
     width: 40vh;
     height: 30vh;
-    margin-top: 30px;
     border: 1px solid black;
 }
 .Titles{
@@ -64,36 +112,28 @@ section{
     height: 30px;
     margin: 30px;
 }
+.work-section{
+    margin-top: 30px;
+}
 .Contact:hover{
     padding: 3px;
 }
-/* .Works{
-    padding-top: 50px;
-    width: 20vw;
-    height: 300px;
-    position: relative;
-    bottom: 40px;
-    opacity: .2;
+.studies-section{
+    height: 70vh;
+    background-color: aliceblue;
+    padding-top: 6vh;
+    margin-top: 0px;
 }
-.Titles-Works{
-    z-index: 1;
-    position: relative;
-    top: 90px;
-    font-size: 200%;
-}
-.img-works:hover{
-    background-color: black;
-} */
 .section-work{
     display: flex;
     width: 100%;
-    height: 350px;
+    height: 400px;
     justify-content: space-between;
 }
 .Titles-Works{
     text-align: center;
     width: 50%;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .img-Works{
     width: 50%;
@@ -104,4 +144,35 @@ section{
 }
 .Titles-Works p{
     margin-top: 40px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40vw 0 40vw;
+    margin-top: 5px;
+}
+.text-input{
+    border-radius: 3px;
+    border-color: black;
+}
+.button{
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 5vw;
+    background-color: aliceblue;
+    border: none;
+    height: 20px;
+    color: black;
+    font-size: 16px;
+}
+.contact-section{
+    margin-top: 30px;
 }
