@@ -1,0 +1,16 @@
+.navbar-desktop{
+    display: none;
+}
+#info-menu{
+    display: none;
+}
+.info{
+    display: flex;
+}
+.info-form{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}

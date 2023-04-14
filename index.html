@@ -7,9 +7,188 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1024px)">
+    <title>Arturo Hernandez</title>
 </head>
 <body>
-    
+    <header>
+        <div id="Logo">
+            <h2>
+               Arturo Hernandez 
+            </h2>
+        </div>
+        <nav class="navbar-mobile">
+            <img id="Nav-Menu" src="./IMG/menu.png" alt="Navegar">
+        </nav>
+        <nav class="navbar-desktop">
+            <div>
+                About
+            </div>
+            <div>
+                SkillSet
+            </div>
+            <div>
+                Works
+            </div>
+            <div>
+                Studies
+            </div>
+            <div>
+                Contact
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section mainSection">
+            <div class="about-container">
+                <div class="about-card">
+                   <h4>
+                    About
+                   </h4>
+                   <div class="about">
+                    Hello!!! My name is Arturo Hernandez and I study software engineering at platzi, my goal is to become a junior developer to work at google. This is my PortFolio, here you can see some of my works with which I have gained experience in the world of software development.
+                   </div>
+                    <div class="about-img-container">
+                        <img id="about-img-mobile" src="./IMG/programador.png" alt="">
+                    </div>
+                   <a href="" class="about-link">Explore my Works --></a>
+                   <button id="about-btn">Download my CV</button>
+                </div>
+            </div>
+        </section>
+        <section class="skillset-section mainSection">
+            <div class="skills">
+                <h4>
+                    SkillSet
+                </h4>
+                <div>
+                    <div class="technical-Skills-container">
+                        <h4>
+                            Technical Skills
+                        </h4>
+                        <div class="skill-container">
+                            <div class="skill">
+                                <p>HTML</p>
+                                <img class="skill-img" src="./imgSkills/html-5.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>CSS</p>
+                                <img class="skill-img" src="./imgSkills/css-3.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Javascript</p>
+                                <img class="skill-img" src="./imgSkills/js.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Git</p>
+                                <img class="skill-img" src="./imgSkills/git.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Responsive Desing</p>
+                                <img class="skill-img" src="./imgSkills/responsive-design.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>React</p>
+                                <img class="skill-img" src="./imgSkills/science.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Data Structures</p>
+                                <img class="skill-img" src="./imgSkills/sugar-cube.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Algorithms</p>
+                                <img class="skill-img" src="./imgSkills/algorithm.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>
+                            Soft Skills
+                        </h4>
+                        <div class="skill-container">
+                            <div class="skill">
+                                <p>Teamwork</p>
+                                <img class="skill-img" src="./imgSkills/reunion.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Empathy</p>
+                                <img class="skill-img" src="./imgSkills/conversacion.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Creativity</p>
+                                <img class="skill-img" src="./imgSkills/el-pensamiento-de-diseno.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Logical Ability</p>
+                                <img class="skill-img" src="./imgSkills/logica.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Problem Solving</p>
+                                <img class="skill-img" src="./imgSkills/problema.png" alt="">
+                            </div>
+                            <div class="skill">
+                                <p>Productivity</p>
+                                <img class="skill-img" src="./imgSkills/productivity.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="studies-section mainSection">
+            <h4>
+                Studies
+            </h4> 
+            <div class="slider-studies">
+            </div>
+        </section>
+        <section class="works-section mainSection">
+            <h4>
+                Works
+            </h4>
+        </section>
+    </main>
+    <footer class="contact-us">
+        <h3 class="title-section">
+            Contact
+        </h3>
+        <div class="info-form">
+            <div>
+                <Form class="contact-form">
+                    <label class="input-container" for="Name">
+                        Name
+                        <input class="input" type="text">
+                    </label>
+                    <label  class="input-container" for="E-mail">
+                        E-mail
+                        <input class="input" type="text">
+                    </label>
+                    <label class="input-container" for="Mensaje">
+                        Messaje
+                        <input class="input" type="text">
+                    </label>
+                    <label for="Name">
+                        <button type="submit" id="form-btn">Send</button>
+                    </label>
+                </Form>
+            </div>
+        </div>
+        <div class="contact-links">
+            <div>
+                <a href="#"><img class="contact-img" src="./IMG/linkedin.png" alt="facebook"></a>
+            </div>
+            <div>
+                <a href="#"><img class="contact-img" src="./IMG/github.png" alt="instagram"></a>
+            </div>
+            <div>
+                <a href="#"><img class="contact-img" src="./IMG/twitter.png" alt="whatsapp"></a>
+            </div>
+            <div>
+                <a href="#"><img class="contact-img" src="./IMG/whatsapp (1).png" alt="llamada telefonica"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

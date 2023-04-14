@@ -1,8 +1,190 @@
+/* General */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
+    /* background-color: grey; */
+    font-size: 62.5%;
+}
+.mainSection{
+    width: 100%;
+    height: 200px;
+    font-size: 1rem;
+    /* border:  1px solid black; */
+}
+.title-section{
+    margin: 10px;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(184, 226, 253);
+    font-size: 1rem;
+}
+#Logo{
+    font-size: 0.6rem;
+}
+#Nav-Menu{
+    width: 25px;
+    height: 25px;
+}
+/* About */
+.about-section{
+    background-color: rgb(232, 243, 253);
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+.about-card{
+    margin: 0 15px 15px 15px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.about-card h4{
+    padding: 4px 0 4px 0;
+    margin-bottom: 15px;
+    background-color: rgb(202, 232, 243);
+    border-radius: 5px;
+}
+#about-img-mobile{
+    width: 80%;
+    margin: 20px;
+}
+.about-link{
+    color: black;
+    text-decoration: none;
+}
+#about-btn{
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(149, 203, 250);
+    padding: 7px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.about-link:hover{
+    color: rgb(0, 157, 255);
+}
+/* Skillset */
+.skillset-section{
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+}
+.skills{
+    text-align: center;
+    margin: 0 15px 15px 15px;
+}
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.technical-Skills-container{
+    margin-top: 20px;
+}
+.skills > h4{
+    margin-top: 20px;
+    background-color: rgb(202, 232, 243);
+    padding: 4px;
+    border-radius: 5px;
+}
+.skill{
+    border-radius: 10px;
+    width: 90px;
+    margin: 5px;
+    background-color: rgb(232, 243, 253);
+    padding: 5px;
+    color: rgb(45, 139, 198);
+}
+.skill p{
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+.skill-img{
+    width: 60px;
+}
+/* Studies */
+.studies-section{
+    background-color: rgb(232, 243, 253);
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.studies-section > h4{
+    margin: 15px;
+    background-color: rgb(202, 232, 243);
+    padding: 4px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.slider-studies{
+    height: 300px;
+}
+/* Works */
+.works-section{
+    border: 1px solid lightskyblue;
+}
+/* Contact */
+.contact-us{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    background-color: rgb(232, 243, 253);
+}
+form label{
+    display: block;
+}
+.contact-form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color:  rgb(184, 226, 253);
+}
+.contact-links{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input-container{
+    margin: 5px;
+}
+.input{
+    background-color: rgb(223, 240, 255);
+    border: none;
+}
+.contact-img{
+    width: 24px;
+    height: 24px;
+}
+.contact-img:hover{
+    padding: 2px;
+}
+#form-btn{
+    margin-top: 10px;
+    margin-right: 6px;
+    border: none;
+    background-color: rgb(112, 187, 252);
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.navbar-desktop{
+    display: none;
 }

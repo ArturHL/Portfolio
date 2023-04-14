@@ -1,0 +1,28 @@
+.navbar-mobile{
+    display: none;
+}
+.navbar-desktop{
+    display: flex;
+}
+.navbar-desktop div{
+    margin: 0 15px 0 15px;
+}
+header{
+    padding: 20px;
+}
+.mainSection{
+    height: 400px;
+}
+#info-menu{
+    display: none;
+}
+.info{
+    display: flex;
+}
+.info-form{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
