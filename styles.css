@@ -6,14 +6,12 @@
 }
 body{
     font-family: 'Roboto Mono', monospace;
-    /* background-color: grey; */
     font-size: 62.5%;
 }
 .mainSection{
     width: 100%;
     height: 200px;
     font-size: 1rem;
-    /* border:  1px solid black; */
 }
 .title-section{
     margin: 10px;
@@ -127,11 +125,54 @@ header{
     top: 20px;
 }
 .slider-studies{
-    height: 300px;
+    height: auto;
+    position: relative;
 }
+.slider-img{
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 1px lightskyblue solid;
+}
+.arrow{
+    height: 25px;
+}
+.slider-right{
+    position: absolute;
+    right: 5px;
+    top: 42%;
+}
+.slider-left{
+    position: absolute;
+    left: 5px;
+    top: 42%;
+}
+
 /* Works */
-.works-section{
-    border: 1px solid lightskyblue;
+.works-section{ 
+    position: relative;
+    text-align: center;
+    height: auto;
+    background-color: rgb(160, 209, 255);
+    padding: 15px 0 15px 0;
+}
+.title-container-work{
+    position: absolute;
+    top: 20%;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.works-section > h1{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.works-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
 }
 /* Contact */
 .contact-us{
@@ -141,18 +182,24 @@ header{
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
     background-color: rgb(232, 243, 253);
 }
 form label{
     display: block;
+}
+.info-form{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(184, 226, 253);
+    width: 100%;
 }
 .contact-form{
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: end;
-    background-color:  rgb(184, 226, 253);
 }
 .contact-links{
     width: 100%;
@@ -187,4 +234,7 @@ form label{
 }
 .navbar-desktop{
     display: none;
+}
+@media screen (min-width: 600px){
+    
 }

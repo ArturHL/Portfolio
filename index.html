@@ -30,10 +30,10 @@
                 SkillSet
             </div>
             <div>
-                Works
+                Studies
             </div>
             <div>
-                Studies
+                Works
             </div>
             <div>
                 Contact
@@ -53,7 +53,9 @@
                     <div class="about-img-container">
                         <img id="about-img-mobile" src="./IMG/programador.png" alt="">
                     </div>
-                   <a href="" class="about-link">Explore my Works --></a>
+                    <p>
+                        <a href="" class="about-link">Explore my Works --></a>  
+                    </p>
                    <button id="about-btn">Download my CV</button>
                 </div>
             </div>
@@ -141,13 +143,27 @@
             <h4>
                 Studies
             </h4> 
-            <div class="slider-studies">
+            <div class="slider-studies">   
+                <div class="slider-display">
+                    <img name="slider-img" class="slider-img" src="" alt="">
+                </div>
+                <div class="slider-right">
+                    <img class="arrow" src="./IMG/flecha-correcta.png" alt="">
+                </div>
+                <div class="slider-left ">
+                    <img class="arrow" src="./IMG/flecha-izquierda.png" alt="">
+                </div>
             </div>
         </section>
         <section class="works-section mainSection">
-            <h4>
+            <div class="title-container-work">
+                <h1>
                 Works
-            </h4>
+                </h1> 
+            </div>
+            <div>
+                <img class="works-img" src="" alt="">
+            </div>
         </section>
     </main>
     <footer class="contact-us">
@@ -155,25 +171,23 @@
             Contact
         </h3>
         <div class="info-form">
-            <div>
-                <Form class="contact-form">
-                    <label class="input-container" for="Name">
-                        Name
-                        <input class="input" type="text">
-                    </label>
-                    <label  class="input-container" for="E-mail">
-                        E-mail
-                        <input class="input" type="text">
-                    </label>
-                    <label class="input-container" for="Mensaje">
-                        Messaje
-                        <input class="input" type="text">
-                    </label>
-                    <label for="Name">
-                        <button type="submit" id="form-btn">Send</button>
-                    </label>
-                </Form>
-            </div>
+            <Form class="contact-form">
+                <label class="input-container" for="Name">
+                    Name
+                    <input class="input" type="text">
+                </label>
+                <label  class="input-container" for="E-mail">
+                    E-mail
+                    <input class="input" type="text">
+                </label>
+                <label class="input-container" for="Mensaje">
+                    Messaje
+                    <input class="input" type="text">
+                </label>
+                <label for="Name">
+                    <button type="submit" id="form-btn">Send</button>
+                </label>
+            </Form>
         </div>
         <div class="contact-links">
             <div>
@@ -190,5 +204,6 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
