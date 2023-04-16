@@ -56,6 +56,8 @@ header{
 .about-link{
     color: black;
     text-decoration: none;
+    display: block;
+    margin-top: 10px;
 }
 #about-btn{
     margin-top: 15px;
@@ -110,6 +112,9 @@ header{
     width: 60px;
 }
 /* Studies */
+.view{
+    display: none;
+}
 .studies-section{
     background-color: rgb(232, 243, 253);
     height: auto;
@@ -154,8 +159,9 @@ header{
     position: relative;
     text-align: center;
     height: auto;
-    background-color: rgb(160, 209, 255);
-    padding: 15px 0 15px 0;
+    border-bottom: 10px solid rgb(160, 209, 255);
+    border-top: 10px solid rgb(160, 209, 255);
+    /* background-color: rgb(160, 209, 255); */
 }
 .title-container-work{
     position: absolute;
@@ -164,6 +170,7 @@ header{
     justify-content: center;
     width: 100%;
     z-index: 1;
+    font-size: 2rem;
 }
 .works-section > h1{
     font-weight: 900;
@@ -184,7 +191,7 @@ header{
     font-size: 1rem;
     padding-top: 10px;
     padding-bottom: 25px;
-    background-color: rgb(232, 243, 253);
+    /* background-color: rgb(232, 243, 253); */
 }
 form label{
     display: block;
@@ -232,9 +239,15 @@ form label{
     color: aliceblue;
     cursor: pointer;
 }
+.more-info-certificates{
+    display: none;
+}
 .navbar-desktop{
     display: none;
 }
-@media screen (min-width: 600px){
-    
+.certificates{
+    display: none;
+}
+.inactive{
+    display: none;
 }

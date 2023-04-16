@@ -37,24 +37,16 @@ function moverIzquierda(){
     document.querySelector('.slider-img').src = diplomas[contador] 
 }
 
+//More Info Certificates
 
+const certificate = document.querySelector('.certificate-subcontainer')
+const xInfo = document.querySelector('.x-info')
+const moreInf = document.querySelector('.more-info-certificates')
 
-// SLIDER DE MIS TRABAJOS
-const sliderWorks = document.querySelector('.works-img');
-const portadas = [
-    './portadas/VideoJuego.png',
-    './portadas/ecommerce.jpg',
-    './portadas/Restaurante.jpeg',
-];
-document.querySelector('.works-img').src = portadas[0]
+// xInfo.addEventListener('click', closeInfo)
+certificate.addEventListener('click', moreInfo)
 
-setInterval(sliderWork, 2000)
-var contadorWork = 0;
-function sliderWork(){
-    contadorWork++;
-    if (contadorWork > portadas.length - 1){
-        contadorWork = 0
-    }
-    document.querySelector('.works-img').src = portadas[contadorWork]
+function moreInfo(){
+    moreInf.classList.toggle('inactive')
+    console.log('funciona')
 }
-
