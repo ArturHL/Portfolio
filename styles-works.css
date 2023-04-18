@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
+}
+main{
+    background-color: rgb(232, 243, 253);
+    padding-bottom: 50px;
+}
+#Logo{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.title-work-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+.title-work{
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 4px 0 4px 0;
+    margin-bottom: 15px;
+    background-color: rgb(202, 232, 243);
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+}
+.works{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work-card{
+    background-color: lightskyblue;
+    width: 250px;
+    height: 430px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.work-img{
+    width: 100%;
+    height: 140px;
+}
+.info-work{
+    margin-top: 15px;
+    height: 30%;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.info-work > p{
+    margin: 15px;
+}
+.info-work > p > a{
+    text-decoration: none;
+    color: rgb(0, 85, 255);
+}

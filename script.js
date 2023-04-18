@@ -39,14 +39,15 @@ function moverIzquierda(){
 
 //More Info Certificates
 
-const certificate = document.querySelector('.certificate-subcontainer')
 const xInfo = document.querySelector('.x-info')
 const moreInf = document.querySelector('.more-info-certificates')
 
-// xInfo.addEventListener('click', closeInfo)
-certificate.addEventListener('click', moreInfo)
+xInfo.addEventListener('click', moreInfo)
 
 function moreInfo(){
     moreInf.classList.toggle('inactive')
-    console.log('funciona')
+}
+function src(index){
+    var src = diplomas[index]
+    document.querySelector('.info-img').src = src
 }
