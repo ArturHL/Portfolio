@@ -9,6 +9,7 @@ const diplomas = [
     "./Diplomas/diploma-git-github_page-0001.jpg",
     "./Diplomas/diploma-python-basico_page-0001.jpg",
     "./Diplomas/diploma-redes_page-0001.jpg",
+    "./Diplomas/diploma-mobile-first_page-0001.jpg",
 ]
 
 document.querySelector('.slider-img').src = diplomas[0]
